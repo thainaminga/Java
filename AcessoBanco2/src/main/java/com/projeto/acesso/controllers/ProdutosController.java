@@ -49,7 +49,7 @@ public class ProdutosController {
 			}
 			return msg;
 		}
-		@DeleteMapping("/produto/apagar/{id}")
+		@DeleteMapping("/produtos/apagar/{id}")
 		public String apagar(@PathVariable Integer id) {
 			String msg = "";
 			Optional<Produto> c = produtosRepo.findById(id);
