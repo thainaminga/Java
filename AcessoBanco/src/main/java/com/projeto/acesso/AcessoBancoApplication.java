@@ -1,4 +1,4 @@
-package com.projeto.acessobanco;
+package com.projeto.acesso;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
